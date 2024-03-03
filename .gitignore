@@ -1,0 +1,10 @@
+# clangd
+compile_commands.json
+.cache
+
+# build files
+*.o
+libspear.a
+
+# vim
+*.swp
