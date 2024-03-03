@@ -1,11 +1,16 @@
 #ifndef SPEAR_VERSION_H
 #define SPEAR_VERSION_H
 
-#define SPEAR_VERSION_MAJOR 0
-#define SPEAR_VERSION_MINOR 1
-#define SPEAR_VERSION_PATCH 0
+const char*
+sp_get_version_string(void);
 
-#define SPEAR_VERSION_STRING                                                   \
-    "Spear Engine v"##SPEAR_VERSION_MAJOR##"."##SPEAR_VERSION_MINOR##"."##SPEAR_VERSION_PATCH
+int
+sp_get_version_major(void);
+
+int
+sp_get_version_minor(void);
+
+int
+sp_get_version_patch(void);
 
 #endif

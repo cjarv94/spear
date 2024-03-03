@@ -15,7 +15,7 @@ libspear.tar.gz: libspear.a
 	tar -jcvf libspear.tar.xz spear
 	rm -rf spear
 
-libspear.a: window.o
+libspear.a: window.o version.o
 	$(AR) $(AR_FLAGS) $@ $^
 
 %.o: src/%.c
