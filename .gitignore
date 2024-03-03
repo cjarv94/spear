@@ -5,6 +5,7 @@ compile_commands.json
 # build files
 *.o
 libspear.a
+libspear.tar.xz
 
 # vim
 *.swp
